@@ -4,7 +4,7 @@ import resumeData from "../data/resumeData";
 
 const Header = () => (
   <header className="header">
-    <div className="logo">{resumeData.name}'s Portfolio</div>
+    <div className="logo">{resumeData.name}</div>
     <nav>
       <ul>
         <li><Link to="/">Home</Link></li>
