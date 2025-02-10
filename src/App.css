@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  transition: all 0.3s ease-in-out; /* Added transition for smoother resizing */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,10 +23,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px; /* Added padding for better spacing */
 }
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  color: #21a1f1; /* Lighter color on hover for better interactivity */
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +42,55 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Responsive Styles for Mobile and Tablets */
+
+/* Mobile phones (portrait) */
+@media (max-width: 600px) {
+  .App-logo {
+    height: 30vmin; /* Smaller logo on small screens */
+  }
+  
+  .App-header {
+    font-size: calc(12px + 3vmin); /* Larger font size for better readability on small screens */
+    padding: 15px; /* Reduced padding for small screens */
+  }
+
+  .App-link {
+    font-size: 1.2rem; /* Slightly larger link font for easier tapping */
+  }
+}
+
+/* Tablets and small laptops (portrait and landscape) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .App-logo {
+    height: 35vmin; /* Logo size for medium screens */
+  }
+
+  .App-header {
+    font-size: calc(12px + 2vmin); /* Adjust font size for tablets */
+    padding: 25px; /* Slightly more padding */
+  }
+
+  .App-link {
+    font-size: 1.1rem; /* Adjust link size */
+  }
+}
+
+/* Larger screens (desktops and large laptops) */
+@media (min-width: 1025px) {
+  .App-logo {
+    height: 40vmin; /* Default logo size for larger screens */
+  }
+
+  .App-header {
+    font-size: calc(10px + 2vmin); /* Default font size */
+    padding: 30px; /* More padding for larger screens */
+  }
+
+  .App-link {
+    font-size: 1rem; /* Default link size */
   }
 }
