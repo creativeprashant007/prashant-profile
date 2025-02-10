@@ -8,7 +8,11 @@ const Projects = () => (
       {resumeData.projects.map((project, index) => (
         <div key={index} className="project-card">
           <h3>{project.title}</h3>
-          <p>{project.description}</p>
+          <ul>
+            {project.details.map((detail, idx) => (
+              <li key={idx}>{detail}</li>
+            ))}
+          </ul>
         </div>
       ))}
     </div>
