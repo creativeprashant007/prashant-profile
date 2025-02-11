@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Experience from "./pages/Experience";
+
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="*" element={<Navigate to="/" />} /> {/* Redirect unknown routes to Home */}
         </Routes>
       </div>
