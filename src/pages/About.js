@@ -46,6 +46,37 @@ const About = () => (
             ))}
           </ul>
         </div>
+         {/* Education Section */}
+         <div className="skills-section">
+          <h3>Education</h3>
+          <ul>
+            {resumeData.education.map((edu, index) => (
+              <li key={index}>
+                <strong>{edu.degree}</strong> - {edu.institution} ({edu.year})
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Achievements Section */}
+        <div className="skills-section">
+          <h3>Achievements</h3>
+          <ul>
+            {resumeData.achievements.map((achievement, index) => (
+              <li key={index}>{achievement}</li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Interests Section */}
+        <div className="skills-section">
+          <h3>Interests</h3>
+          <ul>
+            {resumeData.interests.map((interest, index) => (
+              <li key={index}>{interest}</li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   </section>

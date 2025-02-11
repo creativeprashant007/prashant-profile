@@ -114,6 +114,62 @@ const resumeData = {
           "Optimized AWS cloud deployment, reducing downtime by 15%.",
         ],
       },
+      {
+        title: "Learning App",
+        details: [
+          "Developed an interactive mobile learning app for educational content delivery.",
+          "Integrated gamified features to enhance user engagement and learning experience.",
+          "Optimized for both iOS and Android using Flutter.",
+        ],
+      },
+      {
+        title: "Food Delivery App",
+        details: [
+          "Designed a mobile application that enables users to order food from local restaurants.",
+          "Integrated real-time tracking and payment gateway for seamless user experience.",
+          "Built with Flutter for cross-platform compatibility.",
+        ],
+      },
+      {
+        title: "Loyalty App",
+        details: [
+          "Created a loyalty program app for businesses to manage customer rewards and promotions.",
+          "Integrated push notifications for real-time offer updates and user engagement.",
+          "Optimized performance to support thousands of concurrent users.",
+        ],
+      },
+      {
+        title: "School Management System",
+        details: [
+          "Developed a comprehensive school management system for administrators, teachers, and students.",
+          "Integrated student performance tracking, attendance, and communication features.",
+          "Deployed on cloud infrastructure for easy access and scalability.",
+        ],
+      },
+      {
+        title: "Tourist Guide App",
+        details: [
+          "Built a mobile app to assist tourists with local sightseeing, accommodations, and activities.",
+          "Integrated location-based services and offline mode for users without internet access.",
+          "Deployed with Firebase for real-time updates and notifications.",
+        ],
+      },
+      {
+        title: "Movie Review App",
+        details: [
+          "Developed an app for users to review and rate movies.",
+          "Integrated third-party APIs for movie data and user reviews.",
+          "Optimized for both mobile and tablet views using responsive design techniques.",
+        ],
+      },
+      {
+        title: "Food Review App",
+        details: [
+          "Created an app for users to review local restaurants and food items.",
+          "Integrated location-based features and a robust rating system.",
+          "Used Firebase for real-time user reviews and data synchronization.",
+        ],
+      },
     ],
     achievements: [
       "Team Leader in Robotics Competition (2016) – Secured 3rd place for innovative design.",
