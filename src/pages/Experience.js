@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <section className="experience">
       <div className="experience-content">
-        <h2>Experience</h2>
+        {/* <h2>Experience</h2> */}
         {resumeData.experience.map((exp, index) => (
           <div key={index} className="experience-item">
             <h3>{exp.role} - {exp.company}</h3>
